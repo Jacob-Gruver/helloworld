@@ -10,19 +10,19 @@ namespace helloworld
 
             Console.WriteLine("Check out my equations! Try the Pythagorean Theorem using 23 and 45!");
 
-            double pow = 2;
+            var pow = 2;
 
-            double x = 23;
+            var x = 23;
 
-            double y = 45;
+            var y = 45;
 
-            double xpow = Math.Pow(x, pow);
+            var xpow = Math.Pow(x, pow);
 
-            double ypow = Math.Pow(y, pow);
+            var ypow = Math.Pow(y, pow);
 
-            double addedPow = xpow + ypow;
+            var addedPow = xpow + ypow;
 
-            double pythTh = Math.Pow(addedPow, pow);
+            var pythTh = Math.Pow(addedPow, pow);
 
             Console.WriteLine(pythTh);
 
