@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace helloworld
 {
@@ -6,13 +8,27 @@ namespace helloworld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Dude-perfect!");
+            Console.WriteLine("System Ready...");
 
-            if (true)
+            string command = Console.ReadLine();
+
+            if (command == "run")
             {
-                System.Console.WriteLine("this statement is true");
+                System.Console.WriteLine("Enter Password >>");
+                string pass = Console.ReadLine();
+                if (pass == "password")
+                {
+                    System.Console.WriteLine("Welcome.. ");
+                }
+                else
+                {
+                    System.Console.WriteLine("Password Incorrect");
+                }
             }
-
+            else if (command == "end")
+            {
+                System.Console.WriteLine("Program Ending");
+            }
         }
     }
 }
