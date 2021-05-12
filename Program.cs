@@ -14,7 +14,7 @@ namespace helloworld
 
             if (command == "run")
             {
-                System.Console.WriteLine("Enter Password >>");
+                System.Console.WriteLine("  Enter Password >>");
 
                 string pass = Console.ReadLine();
 
