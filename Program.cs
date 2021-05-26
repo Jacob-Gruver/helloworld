@@ -22,7 +22,7 @@ namespace helloworld
                 {
                     System.Console.WriteLine("Welcome.. Check out my additional programs within main.");
 
-                    System.Console.WriteLine("Check out > day-of-the-week");
+                    System.Console.WriteLine("Check out > day-of-the-week, for-loop");
 
                     string check = Console.ReadLine();
 
@@ -63,6 +63,17 @@ namespace helloworld
                         }
 
                     }
+                    else if (check == "for-loop")
+                    {
+                        System.Console.WriteLine("Here is a short for loop")
+
+                        for (int i = 0; i < 10; i++)
+                        {
+                            
+                        }
+                    }
+
+
                     else
                     {
                         System.Console.WriteLine("Invalid input");
