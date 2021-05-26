@@ -65,15 +65,14 @@ namespace helloworld
                     }
                     else if (check == "for-loop")
                     {
-                        System.Console.WriteLine("Here is a short for loop")
+                        System.Console.WriteLine("Here is a short for loop");
 
                         for (int i = 0; i < 10; i++)
                         {
-                            
+                            System.Console.WriteLine("i is equal to " + i);
                         }
+                        System.Console.WriteLine("end");
                     }
-
-
                     else
                     {
                         System.Console.WriteLine("Invalid input");
